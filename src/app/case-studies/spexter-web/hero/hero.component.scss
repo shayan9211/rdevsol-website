@@ -1,0 +1,5 @@
+.fixed-dimension-img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover; /* This makes sure the image scales properly */
+}

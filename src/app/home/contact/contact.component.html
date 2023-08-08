@@ -1,0 +1,107 @@
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>Please submit the below form with your message to contact us.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-5 d-flex align-items-stretch">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Location:</h4>
+            <p>
+              Software Technology Park, <br />
+              Service Rd N I-9/3, <br />
+              Islamabad, Pakistan
+            </p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Email:</h4>
+            <p>contact@rdevsol.com</p>
+          </div>
+
+          <!-- <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Call:</h4>
+            <p>+1 (773)-951-3345</p>
+          </div> -->
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13282.874532898375!2d73.03537882178581!3d33.66445170839396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9571d792da1d%3A0x6292e9437fbe15b0!2sSoftware%20Technology%20Park%2C%20Service%20Rd%20N%2C%20I-9%2F3%20I%209%2F3%20I-9%2C%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1653171991356!5m2!1sen!2sus"
+            frameborder="0"
+            style="border: 0; width: 100%; height: 290px"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+        <!-- <form action="message" method="post" role="form" class="php-email-form"> -->
+        <div class="php-email-form">
+          <div>
+            <label id="validation" style="color: red" name="validation">
+            </label>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                name="Contact_Name"
+                class="form-control"
+                id="name"
+                required
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="name">Your Email</label>
+              <input
+                type="email"
+                class="form-control"
+                name="Contact_Email"
+                id="email"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name">Subject</label>
+            <input
+              type="text"
+              class="form-control"
+              name="Contact_Subject"
+              id="subject"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Message</label>
+            <textarea
+              class="form-control"
+              name="Contact_Message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">
+              Your message has been sent. Thank you!
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" onclick="sendMessage()">Send Message</button>
+          </div>
+        </div>
+        <!-- </form> -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
