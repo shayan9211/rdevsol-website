@@ -19,7 +19,7 @@
         >
           <div
             class="icon-box"
-            (click)="navigateToCustomWebDev(); $event.preventDefault()"
+            (click)="navigateToWebDev(); $event.preventDefault()"
           >
             <div class="icon"><i class="fa fa-brain"></i></div>
             <h4 class="text-align-center">
@@ -39,7 +39,7 @@
         >
           <div
             class="icon-box"
-            (click)="navigateToWebdev(); $event.preventDefault()"
+            (click)="navigateToWeb3(); $event.preventDefault()"
           >
             <div class="icon">
               <i class="fa fa-laptop">
@@ -60,7 +60,7 @@
         >
           <div
             class="icon-box"
-            (click)="navigateToGpt(); $event.preventDefault()"
+            (click)="navigateToAi(); $event.preventDefault()"
           >
             <div class="icon"><i class="fas fa-chart-bar"></i></div>
             <h4 class="text-align-center">
@@ -77,7 +77,7 @@
         >
           <div
             class="icon-box"
-            (click)="navigateToMl(); $event.preventDefault()"
+            (click)="navigateToCloud(); $event.preventDefault()"
           >
             <div class="icon"><i class="fa fa-robot"></i></div>
             <h4 class="text-align-center">
@@ -93,7 +93,8 @@
           data-aos="zoom-in"
           data-aos-delay="100"
         >
-          <div class="icon-box">
+          <div class="icon-box"
+          (click)="navigateToMobile(); $event.preventDefault()">
             <div class="icon">
               <!-- <i class="bx bxl-dribbble"></i> -->
               <i class="fab fa-android"></i>
@@ -110,7 +111,8 @@
           data-aos="zoom-in"
           data-aos-delay="200"
         >
-          <div class="icon-box">
+          <div class="icon-box"
+          (click)="navigateToCustom(); $event.preventDefault()">
             <div class="icon">
               <!-- <i class="bx bx-file"></i> -->
               <i class="fab fa-app-store"></i>
@@ -127,7 +129,8 @@
           data-aos="zoom-in"
           data-aos-delay="300"
         >
-          <div class="icon-box">
+          <div class="icon-box"
+          (click)="navigateToMarketing(); $event.preventDefault()">
             <div class="icon">
               <i class="fa fa-laptop">
                 <i class="fa fa-code"></i>
@@ -148,7 +151,8 @@
           data-aos="zoom-in"
           data-aos-delay="400"
         >
-          <div class="icon-box">
+          <div class="icon-box"
+          (click)="navigateToConsulting(); $event.preventDefault()">
             <div class="icon">
               <i class="fa fa-gamepad"> </i>
             </div>

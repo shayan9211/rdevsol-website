@@ -9,16 +9,28 @@ import { Router } from '@angular/router';
 export class ServicesComponent {
   constructor(private router: Router) {}
 
-  navigateToCustomWebDev() {
-    this.router.navigate(['/cwd']);
+  navigateToAi() {
+    this.router.navigate(['/AI']);
   }
-  navigateToGpt() {
-    this.router.navigate(['/gpt']);
+  navigateToCloud() {
+    this.router.navigate(['/cloud']);
   }
-  navigateToMl() {
-    this.router.navigate(['/ml']);
+  navigateToConsulting() {
+    this.router.navigate(['/consulting']);
   }
-  navigateToWebdev() {
-    //this.router.navigate(['/webdev']);
+  navigateToCustom() {
+    this.router.navigate(['/custom']);
+  }
+  navigateToMarketing() {
+    this.router.navigate(['/marketing']);
+  }
+  navigateToMobile() {
+    this.router.navigate(['/mobile']);
+  }
+  navigateToWeb3() {
+    this.router.navigate(['/web3']);
+  }
+  navigateToWebDev() {
+    this.router.navigate(['/webdev']);
   }
 }

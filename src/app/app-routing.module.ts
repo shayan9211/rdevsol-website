@@ -4,11 +4,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'portfolio', loadChildren: () => import('./portfolio/portfolio.module').then(m => m.PortfolioModule) },  // lazy load PortfolioModule
- // { path: 'cwd', loadChildren: () => import('./services/custom web dev/cwd.module').then(m => m.CWDModule) },
-  //{ path: 'gpt', loadChildren: () => import('./services/gpt/gpt.module').then(m => m.GPTModule) },
-  //{ path: 'ml', loadChildren: () => import('./services/ml/ml.module').then(m => m.MLModule) },
-  //{ path: 'webdev', loadChildren: () => import('./services/web-dev/web-dev.module').then(m => m.WebDevModule) },
+  { path: 'portfolio', loadChildren: () => import('./portfolio/portfolio.module').then(m => m.PortfolioModule) },
   { path: 'AI', loadChildren: () => import('./services/AI/AI.module').then(m => m.AIModule) },
   { path: 'cloud', loadChildren: () => import('./services/cloud/cloud.module').then(m => m.CloudModule) },
   { path: 'consulting', loadChildren: () => import('./services/consulting/consulting.module').then(m => m.ConsultingModule) },
@@ -16,7 +12,7 @@ const routes: Routes = [
   { path: 'marketing', loadChildren: () => import('./services/marketing/marketing.module').then(m => m.MarketingModule) },
   { path: 'mobile', loadChildren: () => import('./services/mobile/mobile.module').then(m => m.MobileModule) },
   { path: 'web3', loadChildren: () => import('./services/web-3/web-3.module').then(m => m.Web3Module) },
-  { path: 'web-dev', loadChildren: () => import('./services/web-dev/web-dev.module').then(m => m.WebDevModule) },
+  { path: 'webdev', loadChildren: () => import('./services/web-dev/web-dev.module').then(m => m.WebDevModule) },
   { path: 'spexter', loadChildren: () => import('./case-studies/spexter-web/spexter-web.module').then(m => m.SpexterWebModule) },
   { path: 'open-banking', loadChildren: () => import('./case-studies/open-banking/open-banking.module').then(m => m.OpenBankingModule) },
 ];
