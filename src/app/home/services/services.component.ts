@@ -19,6 +19,6 @@ export class ServicesComponent {
     this.router.navigate(['/ml']);
   }
   navigateToWebdev() {
-    this.router.navigate(['/webdev']);
+    //this.router.navigate(['/webdev']);
   }
 }

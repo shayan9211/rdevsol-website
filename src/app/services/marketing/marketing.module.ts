@@ -1,33 +1,33 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WebDevComponent } from './web-dev.component';
-import { WebDevRoutingModule } from './web-dev-routing.module';
+import { MarketingComponent } from './marketing.component';
+import { MarketingRoutingModule } from './marketing-routing.module';
 import { HeaderModule } from '../../home/header/header.module';
 import { FooterModule } from '../../home/footer/footer.module';
 import { HeroModule } from '../../home/hero/hero.module';
-import { WebDevHeroComponent } from './web-dev-hero/web-dev-hero.component';
-import { WebDevMainComponent } from './main/main.component';
+import { MarketingHeroComponent } from './marketing-hero/marketing-hero.component';
+import { MarketingMainComponent } from './main/main.component';
 
 
 
 
 @NgModule({
   declarations: [
-    WebDevComponent,
-    WebDevHeroComponent,
-    WebDevMainComponent,
+    MarketingComponent,
+    MarketingHeroComponent,
+    MarketingMainComponent,
     //PortfolioHeroComponent,
     //DemoComponent
   ],
   imports: [
     CommonModule,
-    WebDevRoutingModule,
+    MarketingRoutingModule,
     HeaderModule,
     FooterModule,
     HeroModule,
   ],
   exports: [
-    WebDevComponent
+    MarketingComponent
   ],
 })
-export class WebDevModule { }
+export class MarketingModule { }
