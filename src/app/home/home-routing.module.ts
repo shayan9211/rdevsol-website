@@ -9,3 +9,6 @@ const routes: Routes = [{ path: '', component: HomeComponent }];
   exports: [RouterModule],
 })
 export class HomeRoutingModule {}
+
+
+
